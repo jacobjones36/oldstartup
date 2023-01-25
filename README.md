@@ -1,5 +1,1 @@
-﻿adding to my file
-Now lets hope that vs is cool too!
-why wont it let me commit? \n proof
-edit from git
-attemptint to edit line i just edited on git..:/
+﻿Well I found this really interesting. I have never used VS Code before so trying to figure it out took a minute but once I did it has been very easy to transition between Git and VS Code which is nice. I was able to mess around with some of the command line prompts and edit it there which I'm not sure if the instructions were wanting us to do because I'm still not sure where the printf call was referring to in the README.md file. 
