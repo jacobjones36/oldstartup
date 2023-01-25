@@ -2,4 +2,4 @@
 Now lets hope that vs is cool too!
 why wont it let me commit? \n proof
 edit from git
-second edit on git baby!!
+attemptint to edit line i just edited on git..:/
