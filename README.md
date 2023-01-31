@@ -6,3 +6,4 @@ Key features
 -Your choices are stored
 -Ability to connect with friends and see what they like
 -Adjusts to your weather and occaision
+IP: 18.116.236.224
