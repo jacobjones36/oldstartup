@@ -6,10 +6,25 @@ body {
 
 header {
     flex: 0 80px;
-    font-size: 40px;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: black;
+}
+p{
+    font-size: 20vh;
+    text-align: center;
+
+    animation-name: title;
+    animation-duration: 3s;
+}
+
+@keyframes title {
+    from {
+        font-size: 0vh;
+    }
+    to {
+        font-size: 20vh;
+    }
 }
 
 main {
@@ -18,6 +33,9 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    font-size: 15px;
+    background-color: aquamarine;
+
 }
 
 footer{
@@ -25,7 +43,7 @@ footer{
     flex: 0 30px;
 }
 
-.inline{
-    display: inline;
+.grid{
+    display: grid;
 }
 
