@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: row;
+    min-width: 375px;
+}
+
+header {
+    flex: 0 80px;
+}
+
+main {
+    flex: 1 calc(100vh - 110px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer{
+    align-items: left;
+    flex: 0 30px;
+}
+
