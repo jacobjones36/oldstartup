@@ -11,7 +11,7 @@ header {
     background-color: black;
 }
 p{
-    font-size: 20vh;
+    font-size: 15vh;
     text-align: center;
 
     animation-name: title;
@@ -23,7 +23,7 @@ p{
         font-size: 0vh;
     }
     to {
-        font-size: 20vh;
+        font-size: 15vh;
     }
 }
 
@@ -41,6 +41,8 @@ main {
 footer{
     align-items: left;
     flex: 0 30px;
+    background-color: black;
+    color: white;
 }
 
 .grid{
