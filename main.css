@@ -37,7 +37,10 @@ main {
     background-color: aquamarine;
 
 }
-
+.nav-item {
+    font-size: medium;
+    border-bottom: solid black;
+}
 footer{
     align-items: left;
     flex: 0 30px;
