@@ -5,6 +5,7 @@ body {
 }
 
 header {
+    display: flex;
     flex: 0 80px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -39,9 +40,10 @@ main {
 }
 .nav-item {
     font-size: medium;
-    border-bottom: solid black;
+    border-bottom: solid gray thin;
 }
 footer{
+    display: flex;
     align-items: left;
     flex: 0 30px;
     background-color: black;
