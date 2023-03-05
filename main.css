@@ -37,7 +37,6 @@ main {
 }
 .list-item {
     font-size: 50px;
-    text-align: left;
 }
 .nav-item {
     font-size: 50px;
@@ -46,7 +45,6 @@ main {
 }
 footer{
     display: flex;
-    align-items: left;
     flex: 0 30px;
     background-color: black;
     color: white;
@@ -59,10 +57,6 @@ footer{
     flex: 0 30px;
 }
 .footer-navbar {
-    flex: 1;
-    display: flex;
-    flex-direction: row !important;
-    list-style: none;
     padding: 0 0.3em;
 }
 
