@@ -39,8 +39,12 @@ main {
     background-color: aquamarine;
 
 }
+.list-item {
+    font-size: 50px;
+    text-align: left;
+}
 .nav-item {
-    font-size: 10px;
+    font-size: 50px;
     border-bottom: solid gray thin;
 }
 footer{
