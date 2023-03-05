@@ -32,10 +32,6 @@ p{
 main {
     flex: 1 calc(100vh - 110px);
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 15px;
     background-color: aquamarine;
 
 }
@@ -46,6 +42,7 @@ main {
 .nav-item {
     font-size: 50px;
     border-bottom: solid gray thin;
+    text-align: center;
 }
 footer{
     display: flex;
@@ -58,4 +55,16 @@ footer{
 .grid{
     display: grid;
 }
+footer{
+    flex: 0 30px;
+}
+.footer-navbar {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 0.3em;
+}
+
+
 
