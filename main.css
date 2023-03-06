@@ -10,10 +10,10 @@ header {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: black;
+    text-align: center;
 }
 p{
-    font-size: 15vh;
-    text-align: center;
+    font-size: 12vh;
 
     animation-name: title;
     animation-duration: 3s;
@@ -24,7 +24,7 @@ p{
         font-size: 0vh;
     }
     to {
-        font-size: 15vh;
+        font-size: 12vh;
     }
 }
 
