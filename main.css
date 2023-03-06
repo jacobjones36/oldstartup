@@ -38,6 +38,7 @@ main {
 .list-item {
     font-size: 50px;
     text-align: center;
+    display: block;
 }
 .navbar-item {
     font-size: 50px;
@@ -60,7 +61,7 @@ footer{
 }
 .footer-navbar {
     padding: 0 0.3em;
-    flex-direction: column !important;
+    display: grid;
 }
 
 
