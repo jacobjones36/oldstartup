@@ -38,7 +38,7 @@ main {
 .list-item {
     font-size: 50px;
 }
-.nav-item {
+.block {
     font-size: 50px;
     border-bottom: solid gray thin;
     text-align: center;
