@@ -31,7 +31,8 @@ p{
 
 main {
     flex: 1 calc(100vh - 110px);
-    display: flex;
+    display: block;
+    text-align: center;
     background-color: aquamarine;
 
 }
@@ -59,7 +60,7 @@ footer{
 footer{
     flex: 0 30px;
 }
-.footer-navbar {
+.footer-navbar-item {
     padding: 0 0.3em;
     display: grid;
 }
