@@ -39,26 +39,21 @@ main {
 .list-item {
     display: block;
 }
-.navbar-item {
+.nav-item {
     border-bottom: solid gray thin;
 }
 footer{
     flex: 1;
-    display: flex;
     flex: 0 30px;
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: row !important;
+    list-style: none;
 }
 
-.grid{
-    display: grid;
-}
-footer{
-    flex: 0 30px;
-}
 .footer-navbar-item {
     padding: 0 0.3em;
-    display: grid;
 }
 
 
