@@ -7,3 +7,5 @@ Key features
 -Ability to connect with friends and see what they like
 -Adjusts to your weather and occaision
 IP: 18.116.236.224
+
+With java it is cool because it is similar to other programming languages so it is nothing crazy to learn but I think it will be difficult deciding what I want my program to do and then putting it to work. Kind of like the easier said than done type thing. Like with the game portion it seeemed like a lot of code for a little bit of product
