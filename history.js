@@ -1,6 +1,6 @@
 "use strict";
 
-const Main = [
+const SevenSummits = [
   { name: "Everest", height: 8848, place: "Nepal" },
   { name: "Aconcagua", height: 6961, place: "Argentina" },
   { name: "Denali", height: 6194, place: "United States" },
