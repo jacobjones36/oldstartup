@@ -1,6 +1,6 @@
 "use strict";
 
-const SevenSummits = [
+const Main = [
   { name: "Spagetti", price: "$10.99" },
   { name: "Hamburger", price: "$9.99" },
   { name: "Lasagna", price: "$14.99" },
@@ -25,10 +25,10 @@ const Desserts = [
   { title: "Ice Cream", price: "$4.99"}
 ];
 
-let currentData = SevenSummits;
+let currentData = Main;
 let sortDirection = 1;
 
-function table(data = SevenSummits) {
+function table(data = Main) {
   if (!!data && data.length > 1) {
     currentData = data;
     const headers = parseHeader(data);
