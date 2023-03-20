@@ -1,6 +1,6 @@
 "use strict";
 
-const SevenSummits = [
+const Main = [
   { name: "Everest", height: 8848, place: "Nepal" },
   { name: "Aconcagua", height: 6961, place: "Argentina" },
   { name: "Denali", height: 6194, place: "United States" },
@@ -10,7 +10,7 @@ const SevenSummits = [
   { name: "Puncak Jaya", height: 4884, place: "Indonesia" }
 ];
 
-const UtahCountySevenPeaks = [
+const Sides = [
   { name: "Timpanogos", height: 11750, stars: 4.8 },
   { name: "Santaquin", height: 10687, stars: 3.8 },
   { name: "Lone Peak", height: 11253, stars: 5 },
@@ -20,12 +20,17 @@ const UtahCountySevenPeaks = [
   { name: "Spanish Fork", height: 10192, stars: 3.4 }
 ];
 
-const JazzMusic = [
+const Drinks = [
   { title: "Take Five", artist: "Dave Brubeck", stars: 4.8 },
   { title: "So What", artist: "Miles Davis", stars: 3.8 },
   { title: "Take The A Train", artist: "Duke Ellington", stars: 4.2 },
   { title: "Round Midnight", artist: "Thelonious Monk", stars: 3.1 },
   { title: "My Favorite Things", artist: "John Coltrane", stars: 3.0 }
+];
+const Desserts = [
+  { title: "Cheesecake", price: "$6.99"},
+  { title: "Tiramasu", price: "$5.99"},
+  { title: "Ice Cream", price: "$4.99"}
 ];
 
 let currentData = SevenSummits;
