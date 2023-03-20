@@ -16,6 +16,9 @@ main {
     text-align: center;
     background-color: turquoise;
 }
+h1 {
+    font-size: 600px;
+}
 
 footer{
     flex: 1 100px;
