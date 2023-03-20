@@ -6,7 +6,7 @@ body {
     height: 100vh;
   }
   header {
-    flex: 1 80px;
+    flex: 1 40vh;
     font-size: 100px;
     background-color: black;
     color: white;
