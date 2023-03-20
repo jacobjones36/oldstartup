@@ -1,13 +1,10 @@
 "use strict";
 
 const SevenSummits = [
-  { name: "Everest", height: 8848, place: "Nepal" },
-  { name: "Aconcagua", height: 6961, place: "Argentina" },
-  { name: "Denali", height: 6194, place: "United States" },
-  { name: "Kilimanjaro", height: 5895, place: "Tanzania" },
-  { name: "Elbrus", height: 5642, place: "Russia" },
-  { name: "Vinson", height: 4892, place: "Antarctica" },
-  { name: "Puncak Jaya", height: 4884, place: "Indonesia" }
+  { name: "Spagetti", price: "$10.99" },
+  { name: "Hamburger", price: "$9.99" },
+  { name: "Lasagna", price: "$14.99" },
+  { name: "Pizza", price: "$12.99" }
 ];
 
 const Sides = [
