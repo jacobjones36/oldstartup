@@ -5,15 +5,16 @@ body {
 }
 
 header {
-    flex: 1 40vh;
+    flex: 1 20vh;
     background-color: black;
     color: white;
     font-size: 60px;
 }
 main {
     flex: 0 100vh;
-    background-color: turquoise;
     color: black;
+    text-align: center;
+    background-color: turquoise;
 }
 
 footer{
