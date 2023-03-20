@@ -1,7 +1,6 @@
 async function callForAssistance() {
     const order = createOrder();
   
-    // async/await
     try {
       await placeOrder(order);
       await makePizza(order);
@@ -12,13 +11,11 @@ async function callForAssistance() {
   }
   
   function createOrder() {
-    // Make the order and associate it with a new HTML element
     const id = Math.floor(Math.random() * 10000);
     const orderElement = document.createElement("li");
     const order = { element: orderElement, id: id };
   
-    // Insert the order into the HTML list
-    orderElement.innerHTML = `<span>[${order.id}] &#128523; <i>Waiting</i> ...</span>`;
+    orderElement.innerHTML = `<span>Waiting ...</span>`;
     const orders = document.getElementById("orders");
     orders.appendChild(orderElement);
   
