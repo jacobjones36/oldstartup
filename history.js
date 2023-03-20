@@ -8,21 +8,16 @@ const SevenSummits = [
 ];
 
 const Sides = [
-  { name: "Timpanogos", height: 11750, stars: 4.8 },
-  { name: "Santaquin", height: 10687, stars: 3.8 },
-  { name: "Lone Peak", height: 11253, stars: 5 },
-  { name: "Provo Peak", height: 11068, stars: 4.1 },
-  { name: "Cascade", height: 10908, stars: 3.2 },
-  { name: "Nebo", height: 11928, stars: 4.8 },
-  { name: "Spanish Fork", height: 10192, stars: 3.4 }
+  { name: "Fries", price: "$3.99" },
+  { name: "Onion Rings", price: "$4.99" },
+  { name: "Breadsticks", price: "$2.99" },
+  { name: "Wings", price: "$7.99" }
 ];
 
 const Drinks = [
-  { title: "Take Five", artist: "Dave Brubeck", stars: 4.8 },
-  { title: "So What", artist: "Miles Davis", stars: 3.8 },
-  { title: "Take The A Train", artist: "Duke Ellington", stars: 4.2 },
-  { title: "Round Midnight", artist: "Thelonious Monk", stars: 3.1 },
-  { title: "My Favorite Things", artist: "John Coltrane", stars: 3.0 }
+  { name: "Sodas", price: "$1.99" },
+  { name: "Shake", price: "$5.99" },
+  { name: "Water", price: "free baby" },
 ];
 const Desserts = [
   { title: "Cheesecake", price: "$6.99"},
