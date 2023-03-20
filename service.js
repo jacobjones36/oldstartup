@@ -27,13 +27,13 @@ async function callForAssistance() {
   
   function placeOrder(order) {
     return new Promise((resolve, reject) => {
-      doWork(order, 1000, 3000, resolve, reject, `We are Sorry! Wait time is 5 minutes`);
+      doWork(order, 1000, 3000, resolve, reject, `Wait time is longer than expected`);
     });
   }
   
   function makePizza(order) {
     return new Promise((resolve, reject) => {
-      doWork(order, 2000, 5000, resolve, reject, `We are sorry! Wait time is longer than expected`);
+      doWork(order, 2000, 5000, resolve, reject, `Wait time is about 5 minutes`);
     });
   }
   
@@ -51,10 +51,10 @@ async function callForAssistance() {
   }
   
   function serveOrder(order) {
-    order.element.innerHTML = `<span>[${order.id}] &#127829; <b>Served</b>!</span>`;
+    order.element.innerHTML = `<span><b>They are on their way!</b>!</span>`;
   }
   
   function orderFailure(order) {
-    order.element.innerHTML = `<span> [${order.id}] &#128544; <b class='failure'>Failure</b>! ${order.error}</span>`;
+    order.element.innerHTML = `<span><b class='failure'>We are sorry!</b>! ${order.error}</span>`;
   }
   
