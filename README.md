@@ -9,3 +9,11 @@ Key features
 IP: 18.116.236.224
 
 With java it is cool because it is similar to other programming languages so it is nothing crazy to learn but I think it will be difficult deciding what I want my program to do and then putting it to work. Kind of like the easier said than done type thing. Like with the game portion it seeemed like a lot of code for a little bit of product
+
+Whem running packages in JS
+Create your project directory
+Initialize it for use with NPM by running npm init -y
+Make sure .gitignore file contains node-modules
+Install any desired packages with npm install <package name here>
+Add require('<package name here>') to your JavaScript code
+Run your code with node main.js
