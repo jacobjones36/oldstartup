@@ -17,3 +17,7 @@ Make sure .gitignore file contains node-modules
 Install any desired packages with npm install <package name here>
 Add require('<package name here>') to your JavaScript code
 Run your code with node main.js
+
+
+I had a couple issues figuring out gitignore but remember you can edit it just in vscode
+Also with the scores documentation use the curl functions to document the different scores. remember that
