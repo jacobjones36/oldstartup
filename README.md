@@ -23,3 +23,5 @@ I had a couple issues figuring out gitignore but remember you can edit it just i
 Also with the scores documentation use the curl functions to document the different scores. remember that
   
 The simon project with the db was pretty cool to see how the code adjusted as the db was connected just little things can effect a lot of other things like how the about.js file was ran and where the items are stored
+
+  make sure each of the entries are unique so that it doesn't just keep adding the same ones to the database
