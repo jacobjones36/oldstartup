@@ -25,3 +25,6 @@ Also with the scores documentation use the curl functions to document the differ
 The simon project with the db was pretty cool to see how the code adjusted as the db was connected just little things can effect a lot of other things like how the about.js file was ran and where the items are stored
 
   make sure each of the entries are unique so that it doesn't just keep adding the same ones to the database
+  
+  step through each using the debugger and run node js and localhost to practice making changges to see which ones work
+  make sure your envirmonment variables are set and you close out any of your windows to let it restart before launching
